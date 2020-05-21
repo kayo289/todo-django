@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import TodoList,TodoDetail,TodoCreate,TodoDelete
+from .views import TodoList,TodoDetail,TodoCreate,TodoDelete,TodoUpdate
 
 urlpatterns = [
     path('list/',TodoList.as_view(),name = 'list'),
